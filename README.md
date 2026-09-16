@@ -1,4 +1,4 @@
-# ❄️ Winter Café - Obsidian Theme
+# ❄️ Winter Cafe - Obsidian Theme
 
 A cozy winter theme for [Obsidian](https://obsidian.md) with soft latte tones, warm cinnamon accents, and gentle frost details. Made for calm evenings, warm drinks, and comfortable note-taking.
 
