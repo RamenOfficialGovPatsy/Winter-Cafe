@@ -21,8 +21,6 @@
   --text-normal: #e8e4dc;
   --text-muted: #a8a49c;
   --text-faint: #7a7870;
-  --text-accent: #c9956b;
-  --text-accent-hover: #d4a373;
   --text-on-accent: #1e2228;
   --text-error: #d4874c;
   --text-warning: #c9956b;
@@ -157,16 +155,6 @@
   --winter-snow: rgba(58, 122, 149, 0.5);
   --winter-frost-shadow: rgba(58, 122, 149, 0.25);
   --winter-cream: #3a2e22;
-
-  /* Tags (light theme) — без рамки */
-  --tag-background: transparent;
-  --tag-color: #a0522d;
-  --tag-background-hover: #8b4513;
-  --tag-color-hover: #f0e4d4;
-
-  /* Links (light theme) */
-  --link-color: #3a7a95;
-  --link-color-hover: #2e6a85;
 }
 
 /* ===== HARDCODED ACCENT COLORS ===== */
@@ -177,12 +165,6 @@
   --interactive-accent-rgb: 201, 149, 107;
   --text-accent: #c9956b;
   --text-accent-hover: #d4a373;
-  --link-color: #a8d8ea;
-  --link-color-hover: #7fb8cc;
-  --tag-color: #7fb8cc;
-  --tag-background: rgba(58, 65, 74, 0.6);
-  --tag-background-hover: #c9956b;
-  --tag-color-hover: #1e2228;
   --graph-node-color: #c9956b;
   --graph-node-tag-color: #a8d8ea;
   --graph-node-attachment-color: #7fb8cc;
@@ -268,50 +250,6 @@ strong {
 
 em {
   color: var(--winter-frost);
-}
-
-/* ===== LINKS ===== */
-.cm-hmd-internal-link,
-.internal-link,
-a {
-  color: var(--link-color);
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.cm-hmd-internal-link:hover,
-.internal-link:hover,
-a:hover {
-  color: var(--link-color-hover);
-  border-bottom: 1px solid var(--interactive-accent);
-}
-
-.external-link {
-  color: var(--link-color);
-}
-
-/* ===== TAGS ===== */
-.tag,
-.cm-hashtag,
-a.tag {
-  background-color: var(--tag-background);
-  color: var(--tag-color);
-  padding: 0.1em 0.4em;
-  border-radius: 4px;
-  font-size: 0.85em;
-  font-family: "Fira Code", monospace;
-  font-weight: 400;
-  transition:
-    color 0.2s ease,
-    background-color 0.2s ease;
-  border: none;
-}
-
-.tag:hover,
-.cm-hashtag:hover,
-a.tag:hover {
-  background-color: var(--tag-background-hover);
-  color: var(--tag-color-hover);
 }
 
 /* ===== HIGHLIGHT ===== */
